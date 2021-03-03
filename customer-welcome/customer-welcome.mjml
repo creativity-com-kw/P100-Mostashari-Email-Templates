@@ -1,0 +1,62 @@
+<mjml lang="ar" owa="desktop">
+  <mj-head>
+    <mj-title>Welcome</mj-title>
+
+    <!-- Style -->
+    <mj-include path="../layouts/style.mjml" />
+  </mj-head>
+
+  <mj-body>
+    <!-- Header -->
+    <mj-include path="../layouts/header.mjml" />
+
+    <!-- Body Starts Here -->
+    <mj-wrapper background-color="#ffffff" padding="25px 0px 0px 0px">
+      <mj-section padding="0px">
+        <!-- Introduction Text -->
+        <mj-column>
+          <mj-text font-size="22px" color="#333">
+            {{name}} مرحباً
+          </mj-text>
+
+          <mj-text font-size="16px" line-height="1.5" color="#51545E">
+            يسرنا انضمامكم لأسرة تطبيق مستشاري
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="5px 0px">
+        <mj-column>
+          <mj-text font-size="16px" line-height="1.5" color="#51545E">
+            : فيما يلي بيانات الحساب
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0px 25px">
+        <mj-column background-color="#F4F4F7" padding="10px 15px">
+          <mj-text font-size="16px" line-height="1.5" padding="0px 0px 0px 0px" color="#51545E">
+            {{name}} : الإسم
+          </mj-text>
+          <mj-text font-size="16px" line-height="1.5" padding="4px 0px 0px 0px" color="#51545E">
+            {{email}} : بريد إلكتروني
+          </mj-text>
+          <mj-text font-size="16px" line-height="1.5" padding="4px 0px 0px 0px" color="#51545E">
+            {{mobile}} : رقم الهاتف
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Greeting -->
+      <mj-include path="../layouts/greeting.mjml" />
+
+      <!-- Note -->
+      <mj-include path="../layouts/note.mjml" />
+    </mj-wrapper>
+    <!-- Body Ends Here -->
+
+    <!-- Footer -->
+    <mj-include path="../layouts/footer.mjml" />
+
+  </mj-body>
+</mjml>

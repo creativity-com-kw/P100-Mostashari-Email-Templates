@@ -1,0 +1,6 @@
+   <!-- Company Header -->
+   <mj-section background-color="#1c1c1c">
+     <mj-column>
+       <mj-image width="150px" padding="0px 25px" name="Mostashari" href="https://mostashari.com/" src="https://mostashari.com/assets/img/logo.png" />
+     </mj-column>
+   </mj-section>

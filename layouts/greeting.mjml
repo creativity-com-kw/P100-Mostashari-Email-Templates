@@ -1,0 +1,10 @@
+<mj-section direction="rtl">
+  <mj-column>
+    <mj-text font-size="16px" line-height="1.5" padding="0px 25px 2px 25px" color="#51545E">
+      مع تحيات
+    </mj-text>
+    <mj-text font-size="16px" line-height="1.5" padding="2px 25px 0px 25px" color="#51545E">
+      "فريق تطبيق "مستشاري
+    </mj-text>
+  </mj-column>
+</mj-section>

@@ -1,0 +1,12 @@
+<mj-section direction="rtl" padding="0px 0px 25px 0px">
+  <mj-column>
+    <mj-divider border-width="1px" border-style="solid" border-color="#EAEAEC" />
+
+    <mj-text font-size="12px" line-height="1.5" padding="10px 25px 0px 25px" color="#6B6E76">
+      <a target="_blank" href="mailto:admin@mostashari.com" class="dark-text"><u>admin@mostashari.com</u></a> لأي إستفسار، يرجى عدم التردد بالتواصل معنا خلال ارسال ايميل الى
+    </mj-text>
+    <mj-text font-size="12px" line-height="1.5" padding="10px 20px 0px 25px" color="#6B6E76">
+      <a target="_blank" href="https://wa.me/+96525527775" class="dark-text"><u>+96525527775</u></a> أو من خلال رقم واتس آب خدمة العملاء
+    </mj-text>
+  </mj-column>
+</mj-section>
