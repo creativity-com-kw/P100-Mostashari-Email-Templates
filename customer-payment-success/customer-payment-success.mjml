@@ -1,6 +1,6 @@
 <mjml lang="ar" owa="desktop">
   <mj-head>
-    <mj-title>Patment Success</mj-title>
+    <mj-title>Payment Success</mj-title>
 
     <!-- Style -->
     <mj-include path="../layouts/style.mjml" />
@@ -16,7 +16,7 @@
         <!-- Introduction Text -->
         <mj-column>
           <mj-text font-size="22px" color="#333">
-            {{name}} مرحباً
+            <span dir="rtl">مرحباً {{name}}</span>
           </mj-text>
 
           <mj-text font-size="16px" line-height="1.5" color="#51545E">
